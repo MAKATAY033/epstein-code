@@ -7,8 +7,11 @@
 #include <string>
 
 #include <chrono>
+
 using namespace std::this_thread;
+
 using namespace std::chrono;
+
 static thread_local std::string epstein_files;
 
 namespace human {
@@ -94,4 +97,5 @@ auto main() -> int
 			}
 		}
 	}
+
 }
